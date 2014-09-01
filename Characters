@@ -1,0 +1,395 @@
+Character Data
+
+				PCs List (by Role)
+Lead
+Lead's little brother
+Witch
+Merchant
+Wizard/Warlock
+Swordswoman
+Captain
+Doctor
++(Hidden)
+Trueborn Vampire
+Werewolf God
+Draw King
+
+     Analysis of Characters
+Name: 
+Gender: 
+Age: 
+Role: 
+Weapons
+ :
+Attributes (numeric, hidden)
+ Health (Total HP): [base (for a normal adult) 1500]
+ Strength (Dam mod): [base 120, mod: $1/100 round down (base: x1)] 
+ Stamina (HP Loss mod): [base 150, mod: 100/$1 round up (base: x1)]
+ Intelligence (Learning mod): [base 130, mod $1/100 (base x1.3)]
+ Agility (Action speed): [base 100, $1 time (cost)* per second]
+Specialties (bonus to tasks, known)
+ :
+Character Map (-10 to 10, hidden)
+ Rash/Patient: 
+ Confident/Doubtful: 
+ Strongwilled/Vunerable: 
+ Serious/Joker: 
+ Blockhead/Observant: 
+ Lazy/Energetic: 
+Appearance: 
+Personal History
+ :
+
+Each action costs in HP and time. This refers to time cost coverage. 
+ Eg: Attack time cost: ~250, Move time cost: ~100
+
+Full PC and Important NPC Data
+
+
+Name: ???
+Gender: M
+Age: 19
+Role: Lead, Mercenary
+Weapons
+ Dual Katana: Multiple Strikes per attack
+Attributes (numeric, hidden)
+ Health (Total HP): 4500
+ Strength (Damage mod): 350
+ Stamina (HP Loss mod): 280
+ Intelligence (Learning mod): 200
+ Agility (Action speed mod): 390
+Specialties (bonus to tasks, known)
+ Streetwise: Can find information
+ Warrior: Does not hesitate in Battle
+ Shadow: Can hide in open view
+Character Map (-10 to 10, hidden)
+ Rash/Patient: 
+ Confident/Doubtful: 
+ Strongwilled/Vunerable: 
+ Serious/Joker: 
+ Blockhead/Observant: 
+ Lazy/Energetic: 
+Appearance: 
+Personal History
+ :
+
+
+Name: ???
+Gender: M
+Age: 14
+Role: Lead's Brother, Hunter
+Weapons
+ Bow: Ranged Damage, no str mod
+ Long Katana: Extra damage, two-hand Weapon, Heavy, Slow
+Attributes (numeric, hidden)
+ Health (Total HP): 300
+ Strength (Damage mod): 250
+ Stamina (HP Loss mod): 200
+ Intelligence (Learning mod): 230
+ Agility (Action speed mod): 400
+Specialties (bonus to tasks, known)
+ Hunter: Can survive in the wild
+ Shadow: Can hide in the open
+ Watcher: Has a greater sight and hearing range
+Character Map (-10 to 10, hidden)
+ Rash/Patient: 
+ Confident/Doubtful: 
+ Strongwilled/Vunerable: 
+ Serious/Joker: 
+ Blockhead/Observant: 
+ Lazy/Energetic: 
+Appearance: 
+Personal History
+ :
+
+
+Name: ???
+Gender: F
+Age: 17
+Role: Witch
+Weapons
+ Magic: See external note for magic
+ Knife: small, quick, low damage
+Attributes (numeric, hidden)
+ Health (Total HP): 5500
+ Strength (Damage mod): 150
+ Stamina (HP Loss mod): 400
+ Intelligence (Learning mod): 600
+ Agility (Action speed mod): 380
+Specialties (bonus to tasks, known)
+ Nobleborn: Family name well known, High Rank
+ Diplomat: Can talk her way in and out of anything
+ Warrior: Does not hesitate in Battle
+Character Map (-10 to 10, hidden)
+ Rash/Patient: 
+ Confident/Doubtful: 
+ Strongwilled/Vunerable: 
+ Serious/Joker: 
+ Blockhead/Observant: 
+ Lazy/Energetic: 
+Appearance: 
+Personal History
+ :
+
+
+Name: ???
+Gender: M
+Age: 15
+Role: Merchant
+Weapons
+ None: Can start learning any weapon
+Attributes (numeric, hidden)
+ Health (Total HP): 1600
+ Strength (Damage mod): 130
+ Stamina (HP Loss mod): 180
+ Intelligence (Learning mod): 330
+ Agility (Action speed mod): 110
+Specialties (bonus to tasks, known)
+ Potential: Can learn any weapon
+ Merchant: Improves prices by 30% to 60%
+Character Map (-10 to 10, hidden)
+ Rash/Patient: 
+ Confident/Doubtful: 
+ Strongwilled/Vunerable: 
+ Serious/Joker: 
+ Blockhead/Observant: 
+ Lazy/Energetic: 
+Appearance: 
+Personal History
+ :
+
+
+Name: ???
+Gender: M
+Age: 50
+Role: Wizard
+Weapons
+ Steel Staff: Use as rod, can be modified to lance
+ Magic: See external note for magic
+Attributes (numeric, hidden)
+ Health (Total HP): 8500
+ Strength (Damage mod): 210
+ Stamina (HP Loss mod): 600
+ Intelligence (Learning mod): 750
+ Agility (Action speed mod): 300
+Specialties (bonus to tasks, known)
+ Magic Craftsman: Can create new spells outside of laboratory
+ Weapon Expert: Can modify Weapons
+ Nobleborn: Well known Family name, High Rank
+ Exemplar: Very famous, welcomed across the world
+Character Map (-10 to 10, hidden)
+ Rash/Patient: 
+ Confident/Doubtful: 
+ Strongwilled/Vunerable: 
+ Serious/Joker: 
+ Blockhead/Observant: 
+ Lazy/Energetic: 
+Appearance: 
+Personal History
+ :
+
+
+Name: 
+Gender: 
+Age: 16
+Role: Swordswoman
+Weapons
+ Great Sword: Heavy, Slow, Extra Damage, Deathblow
+Attributes (numeric, hidden)
+ Health (Total HP): 3000
+ Strength (Damage mod): 650
+ Stamina (HP Loss mod): 400
+ Intelligence (Learning mod): 200
+ Agility (Action speed mod): 260
+Specialties (bonus to tasks, known)
+ Hunter: Can survive in the wild
+ Strong: Can weild heavy and slow weapons as normal
+Character Map (-10 to 10, hidden)
+ Rash/Patient: 
+ Confident/Doubtful: 
+ Strongwilled/Vunerable: 
+ Serious/Joker: 
+ Blockhead/Observant: 
+ Lazy/Energetic: 
+Appearance: 
+Personal History
+ :
+
+
+Name: ???
+Gender: F
+Age: 19
+Role: Captain
+Weapons
+ Handguns: Rangen weapons, small, no strength mod, Deathblow
+Attributes (numeric, hidden)
+ Health (Total HP): 3500
+ Strength (Damage mod): 160
+ Stamina (HP Loss mod): 300
+ Intelligence (Learning mod): 290
+ Agility (Action speed mod): 320
+Specialties (bonus to tasks, known)
+ Driver: Can drive/pilot any vehicle
+ Weapon Expert: Can modify Weapons
+ Lots of Weapons: Can carry up to 10 (dep on armor) and switch in battle
+ Warrior: Does not hesitate in battles
+ Barrage: Can move and attack at the same turn
+Character Map (-10 to 10, hidden)
+ Rash/Patient: 
+ Confident/Doubtful: 
+ Strongwilled/Vunerable: 
+ Serious/Joker: 
+ Blockhead/Observant: 
+ Lazy/Energetic: 
+Appearance: 
+Personal History
+ :
+
+
+
+Name: ???
+Gender: F
+Age: 22
+Role: Doctor
+Weapons
+ Rifle:Ranged, no Str mod, Large, Multiple Strikes, Area attack, Deathblow
+Attributes (numeric, hidden)
+ Health (Total HP): 3000
+ Strength (Damage mod): 260
+ Stamina (HP Loss mod): 450
+ Intelligence (Learning mod): 500
+ Agility (Action speed mod): 300
+Specialties (bonus to tasks, known)
+ Doctor: Can heal lethal and aggrevated damage
+Character Map (-10 to 10, hidden)
+ Rash/Patient: 
+ Confident/Doubtful: 
+ Strongwilled/Vunerable: 
+ Serious/Joker: 
+ Blockhead/Observant: 
+ Lazy/Energetic: 
+Appearance: 
+Personal History
+ :
+
+
+
+Name: ???
+Gender: M
+Age: ?, at least 3000, apparent 25
+Role: FirstBorn Vampire (hidden PC)
+Weapons
+ Fangs: High Damage, Lifesteal, Control (temporary)
+ Magic: See external note
+ Wings: Can use his wings to crush or blow away the enemy
+Attributes (numeric, hidden)
+ Health (Total HP): 15000
+ Strength (Damage mod): 1100
+ Stamina (HP Loss mod): 1600
+ Intelligence (Learning mod): 3000
+ Agility (Action speed mod): 2300
+Specialties (bonus to tasks, known)
+ Ageless: Does not grow old
+ Charm: Able to temporarily control someone
+ Flight: Capable of Flight
+ Warrior: Does not hesitate in Battle
+ Fast: Able to move faster than sight
+ Healing Factor: Regenerates HP immediately
+ Scary: Beast don't attack him willingly, and escape if attacked
+Character Map (-10 to 10, hidden)
+ Rash/Patient: 
+ Confident/Doubtful: 
+ Strongwilled/Vunerable: 
+ Serious/Joker: 
+ Blockhead/Observant: 
+ Lazy/Energetic: 
+Appearance: 
+Personal History
+ :
+
+
+Name: ???
+Gender: M
+Age: ?, at least 3000, apparent 30
+Role: Werewolf Lord (hidden PC)
+Weapons
+ Warhammer (human form): Heavy, Slow, Extra Damage, Deathblow
+ Fangs & Claws (beast form): fast, Extra Damage, Deathblow
+ Magic: See external note
+Attributes (numeric, hidden)
+ Health (Total HP): 17000
+ Strength (Damage mod): 350
+ Stamina (HP Loss mod): 500
+ Intelligence (Learning mod): 400
+ Agility (Action speed mod): 800
+Specialties (bonus to tasks, known)
+ Beast Form: 5'-10' random, Strength, Stamina and Agility x10
+ Ageless: Does not grow old
+ Warrior: Does not hesitate in Battle
+ Fast: Able to move faster than sight
+ Healing Factor: Regenerates HP immediately
+ Scary: Beast don't attack him willingly, and escape if attacked
+Character Map (-10 to 10, hidden)
+ Rash/Patient: 
+ Confident/Doubtful: 
+ Strongwilled/Vunerable: 
+ Serious/Joker: 
+ Blockhead/Observant: 
+ Lazy/Energetic: 
+Appearance: 
+Personal History
+ :
+
+
+Name: ???
+Gender: M
+Age: 24
+Role: Drow Emperor (hidden PC)
+Weapons
+ :
+Attributes (numeric, hidden)
+ Health (Total HP): 
+ Strength (Damage mod): 
+ Stamina (HP Loss mod): 
+ Intelligence (Learning mod): 
+ Agility (Action speed mod): 
+Specialties (bonus to tasks, known)
+ :
+Character Map (-10 to 10, hidden)
+ Rash/Patient: 
+ Confident/Doubtful: 
+ Strongwilled/Vunerable: 
+ Serious/Joker: 
+ Blockhead/Observant: 
+ Lazy/Energetic: 
+Appearance: 
+Personal History
+ :
+
+
+
+Name: ???
+Gender:
+Age:
+Role:
+Weapons
+ :
+Attributes (numeric, hidden)
+ Health (Total HP): 
+ Strength (Damage mod): 
+ Stamina (HP Loss mod): 
+ Intelligence (Learning mod): 
+ Agility (Action speed mod): 
+Specialties (bonus to tasks, known)
+ :
+Character Map (-10 to 10, hidden)
+ Rash/Patient: 
+ Confident/Doubtful: 
+ Strongwilled/Vunerable: 
+ Serious/Joker: 
+ Blockhead/Observant: 
+ Lazy/Energetic: 
+Appearance: 
+Personal History
+ :
+

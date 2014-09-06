@@ -23,10 +23,10 @@ Weapons
  :
 Attributes (numeric, hidden)
  Health (Total HP): [base (for a normal adult) 1500]
- Strength (Dam mod): [base 120, mod: $1/100 round down (base: x1)] 
- Stamina (HP Loss mod): [base 150, mod: 100/$1 round up (base: x1)]
+ Strength (Dam mod): [base 120, mod: $1/100            (base: x1.2)] 
+ Stamina (HP Loss mod): [base 150, mod: 100/$1 round up (base: x2)]
  Intelligence (Learning mod): [base 130, mod $1/100 (base x1.3)]
- Agility (Action speed): [base 100, $1 time (cost)* per second]
+ Agility (Action speed): [base 100, $1 time  (APs)* per second]
 Specialties (bonus to tasks, known)
  :
 Character Map (-10 to 10, hidden)
@@ -348,11 +348,11 @@ Role: Drow Emperor (hidden PC)
 Weapons
  :
 Attributes (numeric, hidden)
- Health (Total HP): 
- Strength (Damage mod): 
- Stamina (HP Loss mod): 
- Intelligence (Learning mod): 
- Agility (Action speed mod): 
+ Health (Total HP): 14000
+ Strength (Damage mod): 300
+ Stamina (HP Loss mod): 400
+ Intelligence (Learning mod): 300
+ Agility (Action speed mod): 600
 Specialties (bonus to tasks, known)
  :
 Character Map (-10 to 10, hidden)
@@ -392,4 +392,3 @@ Character Map (-10 to 10, hidden)
 Appearance: 
 Personal History
  :
-

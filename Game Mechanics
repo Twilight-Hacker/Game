@@ -87,6 +87,7 @@ Actions
  Charming
  Pleading
 Not all actions are available to all characters at all negotiations.
+For every character, only options according to his character map and Intelligence will be available. Depending on the circumstances, that may leave him without options and unable (to continue) to negotiate.
 For the NPC to be convinced, there are 3 meters: Fear, Trust, Anger
 Depending on the situation, and the request, there will be different target values for the meters.
 Depending on the NPC's character map and data, each action has different results to the meters.
@@ -96,7 +97,8 @@ A catastrophic miss will result to the NPC getting too angry to discuss until th
 A catastrophic miss may result to the NPC dismissing the subject altogether and refusing to negotiate about it permanently
 A catastrophic miss may result to the NPC refusing to negotiate with the entire party
 A catastrophic miss could even result to the characters getting arrested, if the NPC is important enough
-A Diplomat will never create a catastrophic miss. Options that would create a catastrophic miss are not available, andthat includes not negotiating after a failure.
+A Diplomat will never create a catastrophic miss. Options that would create a catastrophic miss are not available, and that includes refusing to negotiate after a failure.
+A diplomat always has Rhetorics as an option, and will never create a catastrophic miss using it (other characters might), regardless of character map.
 The Vampire can turn any negotiation to success with his Charm, but he may refuse to help. If you insist, he might drop you unconsious.
 
 A note for conversations with minor NPCs: They might have something to say, or they might not. But talking to them after they ask you to leave them alone, will result to them calling for help. Best case scenario, you will be fined. Worst case scenario, arrested. The Vampire will always refuse to use Charm on minor NPCs.

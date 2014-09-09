@@ -31,6 +31,7 @@ This is the result of our reseach on magic and its origins, and the Creation. He
 [...]
 {what is meant that the soul breaths magic}
 {how the will of the living affects magic}
+{magic wishes, the building blocks of spells}
 {how magic interacts with matter}
 {how magic interacts with space and time}
 
@@ -48,10 +49,24 @@ Casting Spells
 -Defence spells
 -Stat Altering spells
 -Healing spells
+--Cooperation casting
 
 Enchanting Items
 
-Crafting (learning new) spells
+Researching (learning new) spells
 
-Researching (discovering new) spells
+Crafting (discovering new) spells
+
+
+
+Madness
+{Summary: loses control of magic, goes berserk, dies}
+{Mechanics: alters character map toward closest extremes}
+{If all values reach the extreme, he goes completely mad}
+
+
+
+
+
+
 

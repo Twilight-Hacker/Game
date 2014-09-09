@@ -1,0 +1,124 @@
+This file explains the game mechanics
+
+ALL VALUES GIVEN HERE ARE FOR DEMOSTRATION OF RELATIVE VALUES ONLY AND ARE SUBJECT TO CHANGE
+
+First of all, the player statistics:
+ Health (Total HP): [base (for a normal adult) 1500]
+Represents the total amount of damage one can take. Affects all other stats. Below follows the effects list. Numbers represent upper limits. The stats reduction does not affect HP:
+ 85%: Exhausted. Cannot train/practice. Stats -20%. Will try to sleep outside battle. Extra loss: 1 hp/sec. No first aid. 
+ 70%: Injured: Stats -40%. Requires healing. Extra loss: 10 hp/sec. 3 first aid actions.
+ 50%: Damaged: Stats -50%. Cannot attack. Extra loss: 50 hp/sec. 5 first aid actions.
+ 35%: Incapacitated: Stats -80%. Cannot move. Extra loss: 100 hp/sec. 10 first aid actions. -10% health (max hp)
+ 20%: Unconsious: Ignored during battle. Extra loss 100 hp/sec. 15 first aid actions. -15% health (max hp)
+ 0%: Dying: Savable only by doctor or magic. Extra loss: 100 hp/sec. 15 first aid actions. -20% health (max hp)/60 sec.
+ If health (max hp) falls below 100, the Character DIES and is removed from the game.
+ 
+Rate at which characters Regain hp: rest: 2%/hour, sleep: +4%/hour + stamina modifier (for both). Doctor (outside battle): 10%/hour.
+first aid actions refers to the number of actions that the doctor must take to stop the extra loss. The actions MUST NOT be interrupted. If they do, restart.
+If the doctor leaves a dying patient, the extra loss resumes.
+Characters require meals every 8 hours or so (3 per day). If they do not eat, they lose 100 hp/hour until they are injured, and 10 hp/hour afterwards. This is cumulative with the extra loss above.
+The characters suffer 50 hp/sec damage when exposed to extreme temperatures, along with -25% to all stats (not health).
+
+ Strength (Dam mod): [base 100, mod: $1/100 (base: x1)]
+The damage is desided in hp, by the weapon and a random modifier. The result is multiplied by the attacker's strength modifier and the defenders's Stamina modifier to determine total damage.
+
+ Stamina (HP Loss mod): [base 100, mod: 100/$1 round down (base: x1)]
+The damage is desided in hp, by the weapon and a random modifier. The result is multiplied by the attacker's strength modifier and the defenders's Stamina modifier to determine total damage.
+This modifier affects HP loss from ALL sources (damage, extra, hunger, temperatures, magic, etc)
+
+ Intelligence (Learning mod): [base 100, mod $1/100 (base x1)]
+Multiply this modifier with base increases in stats from practice/training to determine total gain. Does NOT affect stat increases gained through experience, and does NOT affect increases in Health.
+ 
+ Agility (Action speed): [base 100, $1 time  (APs)* per second]
+See battle commands analysis below. Summarising, it affects action execution speed, and escape probability.
+
+Only the values are stored, for PCs, NPCs and monster types. Modifiers are produced when necessary.
+Stats can be temporarily changed by equipment (armor mainly) and magic.
+
+
+Battle
+
+Each action costs a certain amount of action points (action cost). 
+Every player gets an amount of action points per second equal to his agility. 
+An action is decided on the beggining of the battle (auto or manual). If the command is manual, the time pauses while chosing, but action cost increases by up 700 (depending on group leader).
+Possible commands
+ Attack (400): Normal Attack. Available to all.
+ Multiple Attack (600): Dependent on weapon type. Strikes 3-10 times.
+ Heavy Attack (800): Dependent on weapon type. Triple Damage.
+ Quick Attack (200): Excecute in 1/2 time of normal. Lose Stamina modifier to attacks recieved until execution.
+ Pinpoint Attack (500): Go for critical damage (3-5x normal damage, ignore target's stamina modifier). Easy to dodge or miss. Available to all.
+ Deathblow (600): Determines damage by percentage, 60%-100%. Dependent to weapon types. Available only if attacker's strength is more that of target's Stamina+Agility.
+ Guard (150): Character takes a Defensive stance to defend from attacks. Blocks all damage.
+ Protect (250): Character will intercept and block attacks to those close to him (including himself). Avalable to all. Halves agility for the next 2 executions.
+ Shield (0): Available only when an area attack threatens an unconsious or dying character. Takes the hit, and the unconcious/duying character recieves no damage from the attack. The doctor, if he is with the target, is also protected. Execution is immediate, and typically the execution cost is very low. The command becomes available during execution of the area attack, to the character with most HP. His action point counter resets, and agility is halved until next execution (cumulative with any other stat decreases).
+ Move (50): Move to a different location. Useful to try and attack enemies from many sides, or reduce/escape the effects of a future area attack. Available to all.
+ Dogde (150): Attempt to dogde attacks targeting you. Success probability is the ratio of the character's agility to the attacker's (max=1=certain dodge). Available at all times.
+ Escape (S): Probability of success is equal to the ratio of your party's total agility+intelligence to your enemies' party's total (max=1=dodge). Available to the group leader and the doctor. The command is unavailable if a character is incapacitated or worse (But see first aid below).
+Not all commands are available to all characters at all times.
+Cost for every action varies for every weapon
+This includes execution costs for actions like protect, move, guard, dodge, etc, but those are typically large and increase with better weapons (unlike attacks which decrease)
+Magic and First Aid are special actions that are not considered commands.
+Magic is analysed at another note.
+First aid helps stabilize a character and stop extra loss. Doctor can also carry ONE character during escape, if he is incapacitated or worse.
+If a Character has more than triple agility than an enemy executing an attack, a free protect may be offered to the character if he is close enough to the tagret (or is the target). That protect has 0 preparation time, but resets the action point counter)
+
+Action Point Counter.
+The action point counter is split in 3 parts: Command, Preperation, Execution. If the PC is in auto, Command is 500, for all commands. If it is on manual, it increases by 700 - (group leader's agility/10). In manual, the group leader is seen actually ordering the character. Preperation varies according to weapon. Execution varies according to command, but it is standard for all characters and weapons. During execution, the character actually executes the command. For preperation times see the commands above (numbers in parentheses). Escape does not have execution time cost. Instead, once the command is given, the preperation is 2000/(party's lowest agility), and the result is success or failure. If it is failure, the characters' counters reset.
+
+Chain of Command (group leaders)
+The protagonist is ALWAYS the first in command. If he is unable to command (eg. unconsious) the second takes over, then the third, etc. If the party is split, the general chain of command is retained for every part seperately. The player may decide the chain of command inthe menu, but characters might refuse to be placed beneath weaker characters (Protagonist refuses to leave top, Werewolf and Vampire fight a duel to determine their places after any of them becomes group leader, and the winner refuses to be placed beneath the loser). Doctor is NOT part of the chain of command.
+
+
+Negotiation
+
+Negotiating with important NPCs is a success or failure action. Any character can negotiate, but those with the diplomat trait gain extra phrases-options. 
+The player chooses what to say. 
+Every phrase corresponds to an action (hidden).
+Actions
+ Rhetorics
+ Conversation
+ Direct
+ Polite
+ Friendly
+ Cute
+ Rude
+ Angry
+ Submissive
+ Charming
+ Pleading
+Not all actions are available to all characters at all negotiations.
+For the NPC to be convinced, there are 3 meters: Fear, Trust, Anger
+Depending on the situation, and the request, there will be different target values for the meters.
+Depending on the NPC's character map and data, each action has different results to the meters.
+A PC cannot try negotiation twice, unless the situation changes (the story progresses)
+If they try anyway, the NPC will get angry. Worst case scenario, a catastrophic miss.
+A catastrophic miss will result to the NPC getting too angry to discuss until the next day or until a diplomat talks with him/her.
+A catastrophic miss may result to the NPC dismissing the subject altogether and refusing to negotiate about it permanently
+A catastrophic miss may result to the NPC refusing to negotiate with the entire party
+A catastrophic miss could even result to the characters getting arrested, if the NPC is important enough
+A Diplomat will never create a catastrophic miss. Options that would create a catastrophic miss are not available, andthat includes not negotiating after a failure.
+The Vampire can turn any negotiation to success with his Charm, but he may refuse to help. If you insist, he might drop you unconsious.
+
+A note for conversations with minor NPCs: They might have something to say, or they might not. But talking to them after they ask you to leave them alone, will result to them calling for help. Best case scenario, you will be fined. Worst case scenario, arrested. The Vampire will always refuse to use Charm on minor NPCs.
+
+
+
+Training (increasing stats)
+
+Every character can practice alone or train under a more experienced character. 
+Training under someone else doubles the gain.
+Cannot practice/train health directly (see below on how to increase)
+While training or practicing, the character must do nothing else (like travellimg on foot, driving, battling, negotiating, or anything else that is not practicing/training). The limitation extends to the trainer as well.
+3 modes of practice:
+ Light: +1 every 4 hours, -125 hp/hour
+ Normal: +1 every 2 hours, -250 hp/hour
+ Heavy: +1  every 1 hours, -500 hp/hour
+Stats may also be increased through experience.
+Cannot practice/train if exhausted (see Health above)
+If practice is interrupted, only what is completed is gained, the rest is lost
+A negotiation will increase intelligence by the total amount the meters changed (see above), divided by 100, rounded up, for all those who watched.
+Strenght will increase + 10 for every 100 attacks (heavy and deathblows count double), and +1 for every 10 enemies killed.
+Health will increase +100 for every 10000 damage taken and healed, and + 10 for every strength or stamina point gained (including those from practice/training).
+Intelligence will increase +1 for every book read (at least 5"/page), through negotiation (see above), and for magicians, +1 for every 100 HP lost by casting a spell successfully.
+Stamina will increase +5 for every 60 successful guards or protects (one counter counts both)
+Agility will increase +5 every time you escape from battle, and +1 for every 50 successful dodges or moves (one counter counts both)

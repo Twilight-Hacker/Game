@@ -21,12 +21,12 @@ Age:
 Role: 
 Weapons
  :
-Attributes (numeric, hidden)
- Health (Total HP): [base (for a normal adult) 1500]
- Strength (Dam mod): [base 120, mod: $1/100            (base: x1.2)] 
- Stamina (HP Loss mod): [base 150, mod: 100/$1 round up (base: x2)]
- Intelligence (Learning mod): [base 130, mod $1/100 (base x1.3)]
- Agility (Action speed): [base 100, $1 time  (APs)* per second]
+Attributes (numeric, hidden) (see Game Mechanics for details)
+ Health (Total HP)
+ Strength
+ Stamina
+ Intelligence
+ Agility
 Specialties (bonus to tasks, known)
  :
 Character Map (-10 to 10, hidden)
@@ -39,9 +39,6 @@ Character Map (-10 to 10, hidden)
 Appearance: 
 Personal History
  :
-
-Each action costs in HP and time. This refers to time cost coverage. 
- Eg: Attack time cost: ~250, Move time cost: ~100
 
 Full PC and Important NPC Data
 
@@ -82,7 +79,7 @@ Weapons
  Bow: Ranged Damage, no str mod
  Long Katana: Extra damage, two-hand Weapon, Heavy, Slow
 Attributes (numeric, hidden)
- Health (Total HP): 300
+ Health (Total HP): 3000
  Strength (Damage mod): 250
  Stamina (HP Loss mod): 200
  Intelligence (Learning mod): 230
@@ -277,9 +274,9 @@ Personal History
 Name: ???
 Gender: M
 Age: ?, at least 3000, apparent 25
-Role: FirstBorn Vampire (hidden PC)
+Role: DragonBorn Vampire (hidden PC)
 Weapons
- Fangs: High Damage, Lifesteal, Control (temporary)
+ Fangs: High Damage, Lifesteal, Control (must be maintained)
  Magic: See external note
  Wings: Can use his wings to crush or blow away the enemy
 Attributes (numeric, hidden)
@@ -294,7 +291,7 @@ Specialties (bonus to tasks, known)
  Flight: Capable of Flight
  Warrior: Does not hesitate in Battle
  Fast: Able to move faster than sight
- Healing Factor: Regenerates HP immediately
+ Healing Factor: Regenerates 1% HP/sec, no first aid needed
  Scary: Beast don't attack him willingly, and escape if attacked
 Character Map (-10 to 10, hidden)
  Rash/Patient: 
@@ -318,16 +315,16 @@ Weapons
  Magic: See external note
 Attributes (numeric, hidden)
  Health (Total HP): 17000
- Strength (Damage mod): 350
+ Strength (Damage mod): 600
  Stamina (HP Loss mod): 500
- Intelligence (Learning mod): 400
+ Intelligence (Learning mod): 450
  Agility (Action speed mod): 800
 Specialties (bonus to tasks, known)
  Beast Form: 5'-10' random, Strength, Stamina and Agility x10
  Ageless: Does not grow old
  Warrior: Does not hesitate in Battle
  Fast: Able to move faster than sight
- Healing Factor: Regenerates HP immediately
+ Healing Factor x3: Regenerates 3% HP/sec, no first aid needed
  Scary: Beast don't attack him willingly, and escape if attacked
 Character Map (-10 to 10, hidden)
  Rash/Patient: 

@@ -56,7 +56,7 @@ Strongwilled-Vunderable value*(-100), if value is positive, he cannot use magic}
 *Attack spells
 *Defence spells
 *Stat Altering spells
-*Healing spells
+*Special spells
 **Cooperation casting
 </li>
 
@@ -76,6 +76,87 @@ In Game Mechanics terms, every spell cast alters the mage's character map toward
 Simple spells cannot alter the Strongwilled-Vunderable value, but using a lot of spells in succession within a short time can.
 
 If the Strongwilled-Vunderable value reaches 10 (completely Vunderable), the mage dies from Madness.
+
+
+ List of wishes
+A list of the types of wishes that a mage can infuse magic with. Used when researching or crafting magic.
+
+Wishes are seperated in 3 basic types, by origin: Memory wishes, Feelings wishes and thoughts wishes.
+
+Thoughts wishes are used to connect the spell with matter and physical objects. Feelings wishes are used to alter and connect the magic with the flow, and Memories wishes, that are also the foundation of spells, are used to create effects. To properly do so, they must be 38-42% of all spell wishes. If more, chance for critical. If less, chance for failure.
+
+Thoughts wishes (alteration of effects)
+ Target (set target to enemy)
+ Self (set target to self)
+ Ally (set target to ally - minimal effect for self)
+ Earth (target Earth)
+ Water (target Water)
+ Fire (target Fire)
+ Air (target Air)
+ Energy (target Magic)
+ Soft (alter:make target's shape)
+ Hard (alter:harden target's shape)
+ Warm (alter:heat target)
+ Cold (alter:cool target)
+ Away (Use: guide target away from you)
+ Closer (Use: guide target towards you)
+
+Feelings wishes (alteration of spell/mechanics)
+ Anger (power+)
+ Fear (power-, accuracy+)
+ Calmness (accuracy+)
+ Hapiness ()
+ Sadness ()
+ illness ()
+ tiredness ()
+ Void (madness-)
+ Vortex (execution speed-)
+ Concentration (accuracy+, execution speed+)
+ (range+)
+ (accuracy+)
+
+Spell mechanics list
+ power
+ accuracy
+ madness
+ execution speed
+ range
+ 
+
+Memories wishes (effects)
+ Pain (damage effect)
+ Death (damage effect)
+ Birth (sp:create effect)
+ Human (sp: affect effect)
+ Tools (sp: use effect)
+ Medicine (sp:first aid)
+ Hospital(sp:heal)
+ Wall (barrier effect)
+ Field (unbarrier, stamina)
+ Shield (barrier effect)
+ Blade (damage effect)
+ Spear (damage effect)
+ Fortress (barrier effect)
+ Mountain (barrier, strength)
+ Lake (unbarrier, intelligence)
+ River (unbarrier, agility)
+ Tree (stamina, sp:heal)
+ Lion (strength, sp:heal)
+ Cat (agility, sp:heal)
+
+
+Effects explanation
+ damage: attack spells
+ barrier: defence spells
+ unbarrier: defence spells (to break them)
+ strength/stamina/intelligence/agility: Stat Altering spells
+ special: Create, Heal, Affect
+  Heal: heals damage already dealt. No more than 20%. (all living beings)
+  First aid: stabilize injured (equal to 15 first aid actions)
+  Create: gathers target around/in front of caster
+  Use: Manipulate the target
+  Affect: Alter the target (see thoughts)
+
 
 
 
